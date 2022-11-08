@@ -32,13 +32,49 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 | expiryDate | "2032-05-04 05:50:24 +0800" | when this domain expires |
 | registrationDate | "2020-02-07 02:23:40 +0800" | when this domain is registered |
 | records | | these records are set via ENS/PNS console by user |
-|---------------------|--------------------|---------------------|
 | contenthash | "0xe3010170122022fb6413aa794d5eb7a3906655f50f5ac41cbdd7933bc277f7192c9e2177c792" | content hash for ipfs |
 | eth | "0xd8da6bf26964af9d7eed9e03e53415d37aa96045" | eth address |
 | dot | "" | dot address |
 | btc | "" | btc address |
 | btc | "" | btc address |
 | text |  | txt address |
-|---------------------|--------------------|---------------------|
 | url |  |  |
 | avatar |  | avatar url |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Parameter           | explain | values |
+|---------------------|---------|----------|
+| name |  the name you are querying(a ens or pns name) e.g. "vitalik.eth", "zzzzzzzzzzzzzzzzzzzzz.dot"  | "vitalik.eth" |
+| nameHash |  nameHash | "0xee6c4522aab0003e8d14cd40a6af439055fd2577951148c14b6cea9a53475835" |
+| labelName |  domain label | "vitalik.eth" |
+| labelHash | labelhash | "0xaf2caa1c2ca1d027f1ac823b529d0a67cd144264b2789fa2ea4d63a67c7103cc" |
+| owner |  domain's owner address | "0xd8da6bf26964af9d7eed9e03e53415d37aa96045" |
+| parent | parent labelhash | "0x93cdeb708b7545dc668eb9280176169d1c33cfd8ed6f04690a0bcc88a93fc4ae" |
+| subdomainCount | its sub-domains count | 0 |
+| ttl | ttl | null |
+| cost | cost | "0" |
+| expiryDate | when this domain expires | "2032-05-04 05:50:24 +0800" |
+| registrationDate | when this domain is registered | "2020-02-07 02:23:40 +0800" |
+| records | these records are set via ENS/PNS console by user | |
+| contenthash | content hash for ipfs | "0xe3010170122022fb6413aa794d5eb7a3906655f50f5ac41cbdd7933bc277f7192c9e2177c792" |
+| eth | eth address | "0xd8da6bf26964af9d7eed9e03e53415d37aa96045" |
+| dot | dot address |"" |
+| btc | btc address |"" |
+| btc | btc address |"" |
+| text | txt address | |
+| url |  |  |
+| avatar  | avatar url |  |
