@@ -27,9 +27,10 @@ defmodule HelloWeb.Router do
     resources "/users", UserController do
       resources "/posts", PostController
     end
+    resources "/reviews", ReviewController
   end
 
-  scope "/admin", HelloWeb.Admin do
+  scope "/admin", HelloWeb.Admin, as: :admin do
     pipe_through :browser
 
     resources "/reviews", ReviewController
